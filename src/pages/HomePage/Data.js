@@ -5,7 +5,7 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: 'Constructora Digital',
-  headline: 'Lead Generation Specialist for Online Businesses',
+  headline: 'Tecnologías de Información, Comunicación y Electrónica',
   description:
     'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
   buttonLabel: 'Get Started',

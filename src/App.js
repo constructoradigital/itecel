@@ -10,7 +10,7 @@ import { Navbar, Footer } from './components';
 
 function App() {
   return (
-    <HashRouter>
+    <Router>
       <GlobalStyle />
       <ScrollToTop />
       <Navbar />
@@ -21,7 +21,7 @@ function App() {
         <Route path='/sign-up' component={SignUp} />
       </Switch>
       <Footer />
-    </HashRouter>
+    </Router>
   );
 }
 
