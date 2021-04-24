@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1000" height="1000"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <rect id="Rectángulo_1" data-name="Rectángulo 1" width="449.738" height="87" transform="translate(107.424 315.654) rotate(-31)" fill="#fff"/>
+    <rect id="Rectángulo_2" data-name="Rectángulo 2" width="449.738" height="87" transform="matrix(-0.875, -0.485, 0.485, -0.875, 842.765, 378.174)" fill="#fff"/>
+    <path id="Sustracción_2" data-name="Sustracción 2" d="M-303.363,691.006h0V254h87V643.306l-87,47.7Z" transform="translate(1096.846 44.714) rotate(-1)" fill="#fff"/>
+    <path id="Exclusión_1" data-name="Exclusión 1" d="M-141,889.379h0L-363,767.124v-386L-141,254,81,381.124l0,0h0v386L-141,889.379Zm-40-508.255v412.5h80v-439h-80Z" transform="translate(632.17 20.399) rotate(-1)" fill="#fff"/>
+    <path id="Sustracción_3" data-name="Sustracción 3" d="M0,0H0V437.006H87V47.7L0,0Z" transform="translate(194.424 753.011) rotate(180)" fill="#fff"/>
+  </g>
+</svg>

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { Button } from '../../globalStyles';
+import logoitecel from '../../images/logo_itecel.svg'
 import {
   Nav,
   NavbarContainer,
@@ -12,7 +13,8 @@ import {
   NavItem,
   NavItemBtn,
   NavLinks,
-  NavBtnLink
+  NavBtnLink,
+  NavIcon2
 } from './Navbar.elements';
 
 function Navbar() {
@@ -43,7 +45,8 @@ function Navbar() {
           <NavbarContainer>
             <NavLogo to='/' onClick={closeMobileMenu}>
               <NavIcon />
-              ULTRA
+              <NavIcon2 src={logoitecel} style={{width:'40px'}}/>
+              <h1>ULTRA </h1>
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
