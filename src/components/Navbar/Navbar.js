@@ -44,9 +44,9 @@ function Navbar() {
         <Nav>
           <NavbarContainer>
             <NavLogo to='/' onClick={closeMobileMenu}>
-              <NavIcon />
-              <NavIcon2 src={logoitecel} style={{width:'40px'}}/>
-              <h1>ULTRA </h1>
+              
+              <NavIcon2 src={logoitecel} alt={logoitecel} />
+              ITECEL
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
@@ -59,12 +59,12 @@ function Navbar() {
               </NavItem>
               <NavItem>
                 <NavLinks to='/services' onClick={closeMobileMenu}>
-                  Services
+                  Servicios
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks to='/products' onClick={closeMobileMenu}>
-                  Products
+                  Productos
                 </NavLinks>
               </NavItem>
               <NavItemBtn>

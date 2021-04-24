@@ -38,7 +38,7 @@ export const NavIcon = styled(FaMagento)`
 `;
 export const NavIcon2 = styled.img`
   margin-right: 0.5rem;
-  width:30px;
+  width:50px;
   display: inline-block;
 
 `;
