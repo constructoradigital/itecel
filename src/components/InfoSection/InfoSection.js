@@ -15,6 +15,7 @@ import {
 
 function InfoSection({
   primary,
+  paddiv,
   lightBg,
   topLine,
   lightTopLine,
@@ -26,17 +27,18 @@ function InfoSection({
   img,
   alt,
   imgStart,
-  start
+  start,
+  titsize
 }) {
   return (
     <>
-      <InfoSec lightBg={lightBg}>
+      <InfoSec lightBg={lightBg} style={{padding:`${paddiv}`}}>
         <Container>
           <InfoRow imgStart={imgStart}>
             <InfoColumn>
               <TextWrapper>
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
-                <Heading lightText={lightText}>{headline}</Heading>
+                <Heading lightText={lightText} style={{fontSize:`${titsize}`}}>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
                 <Link to='/sign-up'>
                   <Button big fontBig primary={primary}>

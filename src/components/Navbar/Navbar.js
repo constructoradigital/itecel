@@ -54,7 +54,7 @@ function Navbar() {
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>
                 <NavLinks to='/' onClick={closeMobileMenu}>
-                  Home
+                  Inicio
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -75,7 +75,7 @@ function Navbar() {
                 ) : (
                   <NavBtnLink to='/sign-up'>
                     <Button onClick={closeMobileMenu} fontBig primary>
-                      SIGN UP
+                      INGRESAR
                     </Button>
                   </NavBtnLink>
                 )}

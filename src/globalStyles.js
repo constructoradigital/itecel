@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
 export const Container = styled.div`
   z-index: 1;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1400px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 50px;
@@ -26,7 +26,7 @@ export const Container = styled.div`
 
 export const Button = styled.button`
   border-radius: 4px;
-  background: ${({ primary }) => (primary ? '#4B59F7' : '#0467FB')};
+  background: ${({ primary }) => (primary ? '#0044cb' : '#0467FB')};
   white-space: nowrap;
   padding: ${({ big }) => (big ? '12px 64px' : '10px 20px')};
   color: #fff;

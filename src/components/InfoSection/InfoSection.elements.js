@@ -4,6 +4,7 @@ export const InfoSec = styled.div`
   color: #fff;
   padding: 160px 0;
   background: ${({ lightBg }) => (lightBg ? '#fff' : '#101522')};
+  
 `;
 
 export const InfoRow = styled.div`
@@ -62,6 +63,11 @@ export const Img = styled.img`
   vertical-align: middle;
   display: inline-block;
   max-height: 500px;
+  
+  &:hover{
+    filter: saturate(110%);
+    z-index:0;
+}
 `;
 
 export const Heading = styled.h1`
