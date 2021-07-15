@@ -1,8 +1,10 @@
 import React from 'react';
 import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './Data';
 import { Services } from '../../components/Services';
-import { InfoSection, Pricing } from '../../components';
+import { InfoSection } from '../../components';
 import InfoSection2 from '../../components/InfoSection2/InfoSection';
+import InfoSection3 from '../../components/InfoSection3/InfoSection';
+
 
 function Home() {
   return (
@@ -11,8 +13,9 @@ function Home() {
       <InfoSection {...homeObjTwo} />
       <InfoSection2 {...homeObjThree} />
       <Services/>
-      <Pricing />
-      <InfoSection {...homeObjFour} />
+      <img src="../../images/contact.jpg" />
+      <InfoSection3 {...homeObjFour} />
+
     </>
   );
 }

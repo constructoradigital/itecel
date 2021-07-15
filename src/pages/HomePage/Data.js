@@ -57,15 +57,15 @@ export const homeObjThree = {
 
 export const homeObjFour = {
   primary: true,
-  paddiv: '110px 0',
+  paddiv: '275px 0',
   lightBg: false,
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Instant Setup',
-  headline: 'Extremely quick onboarding process',
+  topLine: '',
+  headline: '',
   description:
-    "Once you've joined, our team of specialist will reach out to you and get you set up in minutes.---Their team is wonderful! I can't believe I didn't start working with them earlier.",
+    "",
   buttonLabel: 'Learn More',
   imgStart: '',
   img: '../../images/svg-2.svg',
