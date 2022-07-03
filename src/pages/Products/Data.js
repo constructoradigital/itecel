@@ -3,7 +3,7 @@ export const homeObjOne = {
   lightText: false,
   lightTopLine: false,
   lightTextDesc: false,
-  topLine: 'View Our Products',
+  topLine: 'View Our ',
   headline: 'Shop through our catalog of products',
   description:
     'We provide worldwide shipping to all countries. If there are any issues, just issue a refund and we will process your request',

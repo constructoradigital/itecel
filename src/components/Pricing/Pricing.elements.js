@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
+
 export const PricingSection = styled.div`
-  padding: 100px 0 160px;
+  padding: 5px 0 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,7 +25,7 @@ export const PricingWrapper = styled.div`
 `;
 
 export const PricingHeading = styled.h1`
-  color: #fff;
+  color: #242424;
   font-size: 48px;
   margin-bottom: 24px;
 `;

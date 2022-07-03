@@ -68,6 +68,19 @@ export const Img = styled.img`
     filter: saturate(110%);
     z-index:0;
 }
+animation: updown 5s linear infinite;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
 `;
 
 export const Heading = styled.h1`

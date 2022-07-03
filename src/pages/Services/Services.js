@@ -1,13 +1,21 @@
 import React from 'react';
 import { InfoSection, Pricing } from '../../components';
-import { homeObjOne, homeObjThree } from './Data';
+import { Galeria } from '../../components/Galeria';
+import {Servicesc } from '../../components/Services';
+import InfoSection2 from '../../components/InfoSection2/InfoSection';
+import InfoSection3 from '../../components/InfoSection3/InfoSection';
+import { homeObjOne, homeObjThree, homeObjTwo } from './Data';
 
 function Services() {
   return (
     <>
-      <Pricing />
-      <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjThree} />
+      
+      <InfoSection {...homeObjTwo} />
+      <InfoSection2 {...homeObjThree}/>
+      <Servicesc/>
+
+      
+
     </>
   );
 }

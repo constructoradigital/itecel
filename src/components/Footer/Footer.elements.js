@@ -144,8 +144,13 @@ export const SocialLogo = styled(Link)`
   margin-bottom: 16px;
 `;
 
-export const SocialIcon = styled(FaMagento)`
-  margin-right: 10px;
+
+
+export const SocialIcon = styled.img`
+  margin-right: 0.5rem;
+  width:50px;
+  display: inline-block;
+
 `;
 
 export const WebsiteRights = styled.small`

@@ -7,7 +7,6 @@ import {
   Nav,
   NavbarContainer,
   NavLogo,
-  NavIcon,
   MobileIcon,
   NavMenu,
   NavItem,
@@ -69,11 +68,11 @@ function Navbar() {
               </NavItem>
               <NavItemBtn>
                 {button ? (
-                  <NavBtnLink to='/sign-up'>
-                    <Button primary>SIGN UP</Button>
+                  <NavBtnLink to='/contacto'>
+                    <Button primary>Contacto</Button>
                   </NavBtnLink>
                 ) : (
-                  <NavBtnLink to='/sign-up'>
+                  <NavBtnLink to='/'>
                     <Button onClick={closeMobileMenu} fontBig primary>
                       INGRESAR
                     </Button>

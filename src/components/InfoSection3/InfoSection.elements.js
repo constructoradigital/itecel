@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from '../../images/contact.jpg';
+//import img from '../../images/contact.jpg';
 export const InfoSec = styled.div`
   color: #fff;
   padding: 0px 0;

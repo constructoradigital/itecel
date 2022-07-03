@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from '../../globalStyles';
+import logoitecel from '../../images/logo_itecel.svg'
 import {
   FaFacebook,
   FaInstagram,
@@ -33,39 +34,36 @@ function Footer() {
     <FooterContainer>
       <FooterSubscription>
         <FooterSubHeading>
-          Join our exclusive membership to receive the latest news and trends
+          Ingresa tu correo para recibir nuestro boletín informativo mensual
         </FooterSubHeading>
-        <FooterSubText>You can unsubscribe at any time.</FooterSubText>
+        <FooterSubText>Puedes cancelar la suscripción en cualquier momento.</FooterSubText>
         <Form>
           <FormInput name='email' type='email' placeholder='Your Email' />
-          <Button fontBig>Subscribe</Button>
+          <Button fontBig>Suscribirme</Button>
         </Form>
       </FooterSubscription>
       <FooterLinksContainer>
         <FooterLinksWrapper>
           <FooterLinkItems>
-            <FooterLinkTitle>About Us</FooterLinkTitle>
-            <FooterLink to='/sign-up'>How it works</FooterLink>
-            <FooterLink to='/'>Testimonials</FooterLink>
-            <FooterLink to='/'>Careers</FooterLink>
-            <FooterLink to='/'>Investors</FooterLink>
-            <FooterLink to='/'>Terms of Service</FooterLink>
+            <FooterLinkTitle>Acerca de:</FooterLinkTitle>
+            <FooterLink to='/sign-up'>Itecel</FooterLink>
+            <FooterLink to='/'>Testimonios</FooterLink>
+            <FooterLink to='/'>Capacitaciones</FooterLink>
+
           </FooterLinkItems>
           <FooterLinkItems>
-            <FooterLinkTitle>Contact Us</FooterLinkTitle>
-            <FooterLink to='/'>Contact</FooterLink>
-            <FooterLink to='/'>Support</FooterLink>
-            <FooterLink to='/'>Destinations</FooterLink>
-            <FooterLink to='/'>Sponsorships</FooterLink>
+            <FooterLinkTitle>Contacto</FooterLinkTitle>
+            <FooterLink to='/'>Contactanos</FooterLink>
+
           </FooterLinkItems>
         </FooterLinksWrapper>
         <FooterLinksWrapper>
           <FooterLinkItems>
-            <FooterLinkTitle>Videos</FooterLinkTitle>
-            <FooterLink to='/'>Submit Video</FooterLink>
-            <FooterLink to='/'>Ambassadors</FooterLink>
-            <FooterLink to='/'>Agency</FooterLink>
-            <FooterLink to='/'>Influencer</FooterLink>
+            <FooterLinkTitle>Blog</FooterLinkTitle>
+            <FooterLink to='/'>Ciberseguridad</FooterLink>
+            <FooterLink to='/'>Desarrollo</FooterLink>
+            <FooterLink to='/'>Infraestructura</FooterLink>
+            <FooterLink to='/'>Noticias</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Social Media</FooterLinkTitle>
@@ -79,10 +77,10 @@ function Footer() {
       <SocialMedia>
         <SocialMediaWrap>
           <SocialLogo to='/'>
-            <SocialIcon />
-            ULTRA
+            <SocialIcon src={logoitecel} alt='Logo Itecel' />
+            ITECEL
           </SocialLogo>
-          <WebsiteRights>ULTRA © 2020</WebsiteRights>
+          <WebsiteRights>ITECEL © 2022</WebsiteRights>
           <SocialIcons>
             <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
               <FaFacebook />
@@ -92,7 +90,7 @@ function Footer() {
             </SocialIconLink>
             <SocialIconLink
               href={
-                '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
+                ''
               }
               rel='noopener noreferrer'
               target='_blank'

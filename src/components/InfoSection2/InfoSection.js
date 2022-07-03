@@ -8,9 +8,7 @@ import {
   TextWrapper,
   TopLine,
   Heading,
-  Subtitle,
-  ImgWrapper,
-  Img
+  Subtitle
 } from './InfoSection.elements';
 
 function InfoSection2({
@@ -38,10 +36,8 @@ function InfoSection2({
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText} style={{fontSize:`${titsize}`}}>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                <Link to='/sign-up'>
-                  <Button big fontBig primary={primary}>
-                    {buttonLabel}
-                  </Button>
+                <Link to='/contacto'>
+
                 </Link>
               </TextWrapper>
             </InfoColumn>

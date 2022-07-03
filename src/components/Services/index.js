@@ -2,9 +2,9 @@ import React from 'react'
 import Icon1 from '../../images/services/develop.png'
 import Icon2 from '../../images/services/security.png'
 import Icon3 from '../../images/services/systems.png'
-import { PricingHeading, ServicesCard, ServicesContainer, ServicesH2, ServicesIcon, ServicesP, ServicesWrapper } from './ServicesElements'
+import { ServicesCard, ServicesContainer, ServicesH2, ServicesIcon, ServicesP, ServicesWrapper } from './ServicesElements'
 
-export const Services = () => {
+export const Servicesc = () => {
     return (
         <>
             <ServicesContainer id="services">

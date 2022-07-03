@@ -1,16 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Container, Button } from '../../globalStyles';
+//import { Link } from 'react-router-dom';
+//import { Container, Button } from '../../globalStyles';
 import img from '../../images/contact.jpg';
 import {
   InfoSec,
-  InfoRow,
-  InfoColumn,
-  TextWrapper,
-  TopLine,
-  Heading,
-  Subtitle,
-  ImgWrapper,
   Img
 } from './InfoSection.elements';
 

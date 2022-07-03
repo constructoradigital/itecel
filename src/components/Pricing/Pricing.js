@@ -1,9 +1,14 @@
 import React from 'react';
 import { Button } from '../../globalStyles';
-import { AiFillThunderbolt } from 'react-icons/ai';
+//import { AiFillThunderbolt } from 'react-icons/ai';
 import { GiCrystalBars } from 'react-icons/gi';
 import { GiCutDiamond, GiRock } from 'react-icons/gi';
-import { GiFloatingCrystal } from 'react-icons/gi';
+import {FaCode} from 'react-icons/fa'
+import {AiFillDatabase} from "react-icons/ai";
+import {SiSpringsecurity} from "react-icons/si";
+//import { GiFloatingCrystal } from 'react-icons/gi';
+
+
 import { IconContext } from 'react-icons/lib';
 import {
   PricingSection,
@@ -25,54 +30,54 @@ function Pricing() {
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
       <PricingSection>
         <PricingWrapper>
-          <PricingHeading>Our Services</PricingHeading>
+          <PricingHeading>Nuestros Servicios</PricingHeading>
           <PricingContainer>
-            <PricingCard to='/sign-up'>
+            <PricingCard to='/contacto'>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiRock />
+                  <FaCode />
                 </PricingCardIcon>
-                <PricingCardPlan>Starter Pack</PricingCardPlan>
-                <PricingCardCost>$99.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardPlan>Software</PricingCardPlan>
+                <PricingCardCost>Developement</PricingCardCost>
+                <PricingCardLength>Desarrollo de Software</PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>100 New Users</PricingCardFeature>
-                  <PricingCardFeature>$10,000 Budget</PricingCardFeature>
-                  <PricingCardFeature>Retargeting analytics</PricingCardFeature>
+                  <PricingCardFeature>Puntos de Venta</PricingCardFeature>
+                  <PricingCardFeature>Aplicaciones Web</PricingCardFeature>
+                  <PricingCardFeature>Seo y Marketing</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>Mas Información...</Button>
               </PricingCardInfo>
             </PricingCard>
-            <PricingCard to='/sign-up'>
+            <PricingCard to='/contacto'>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiCrystalBars />
+                  <SiSpringsecurity/>
                 </PricingCardIcon>
-                <PricingCardPlan>Gold Rush</PricingCardPlan>
-                <PricingCardCost>$299.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardPlan>Cyber</PricingCardPlan>
+                <PricingCardCost>Security</PricingCardCost>
+                <PricingCardLength>Ciberseguridad</PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>1000 New Users</PricingCardFeature>
-                  <PricingCardFeature>$50,000 Budget</PricingCardFeature>
-                  <PricingCardFeature>Lead Gen Analytics</PricingCardFeature>
+                  <PricingCardFeature>Pentesting</PricingCardFeature>
+                  <PricingCardFeature>Incident Response</PricingCardFeature>
+                  <PricingCardFeature>Proactive Services</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>Mas Información...</Button>
               </PricingCardInfo>
             </PricingCard>
-            <PricingCard to='/sign-up'>
+            <PricingCard to='/contacto'>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiCutDiamond />
+                  <AiFillDatabase/>
                 </PricingCardIcon>
-                <PricingCardPlan>Diamond Kings</PricingCardPlan>
-                <PricingCardCost>$999.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardPlan>Systems</PricingCardPlan>
+                <PricingCardCost>Administration</PricingCardCost>
+                <PricingCardLength>Infraestructura</PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>Unlimited Users</PricingCardFeature>
-                  <PricingCardFeature>Unlimited Budget</PricingCardFeature>
-                  <PricingCardFeature>24/7 Support</PricingCardFeature>
+                  <PricingCardFeature>Consultoría</PricingCardFeature>
+                  <PricingCardFeature>Implementaciones</PricingCardFeature>
+                  <PricingCardFeature>Soporte</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>Mas Información...</Button>
               </PricingCardInfo>
             </PricingCard>
           </PricingContainer>
