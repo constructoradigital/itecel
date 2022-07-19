@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 
 export const PricingSection = styled.div`
+  margin-top: 40px;
   padding: 5px 0 70px;
   display: flex;
   flex-direction: column;

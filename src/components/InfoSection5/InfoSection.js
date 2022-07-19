@@ -15,7 +15,7 @@ export const InfoSection5 = () => {
 
   return (
     <>
-    <main className='container page-wrapper pt-5 pb-5'>
+    <main className='container page-wrapper pt-5 pb-5 mb-5'>
 
           <h1 className="display-4 text-center text-md-start">Soluciones tecnológicas</h1>
           

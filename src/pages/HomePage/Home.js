@@ -5,6 +5,7 @@ import { InfoSection, Pricing } from '../../components';
 import InfoSection3 from '../../components/InfoSection3/InfoSection';
 import { Partners } from '../../components/Partners/Partners';
 import { InfoSection5 } from '../../components/InfoSection5/InfoSection';
+import InfoSection2 from '../../components/InfoSection2/InfoSectionPrin';
 
 
 
@@ -16,6 +17,7 @@ function Home() {
      
       <Partners/>
       <InfoSection5/>
+      <InfoSection2 {...homeObjThree}/>
       <Pricing/>
       <InfoSection3 {...homeObjFour} />
 
