@@ -1,0 +1,5 @@
+.imagenHome:hover{
+    transform: scale(1.02);
+    transition-duration: 0.5s;
+    
+}
